@@ -1,0 +1,96 @@
+{
+  "_comment": "常用品类映射表。每个品类关联 HS6 编码列表（中国海关 HS2022 前6位协调制度子目）、concrete 检索词（英文/中文）、排除词、默认关注国家。检索词严格使用 HS 标准品名 + concrete 词汇，禁止用户口语词。",
+  "version": "HS2022",
+  "categories": [
+    {
+      "key": "fitness_equipment",
+      "display_name": "健身器材",
+      "hs6_codes": ["950691", "950699"],
+      "concrete_terms_cn": ["健身器材", "健身器械", "运动器材"],
+      "concrete_terms_en": ["fitness equipment", "gym equipment", "exercise equipment"],
+      "exclude_terms": ["健身课程", "健身教练", "健身房会员"],
+      "default_countries": ["美国", "德国", "英国", "日本", "荷兰", "澳大利亚", "加拿大", "韩国", "法国", "意大利"]
+    },
+    {
+      "key": "smartphones",
+      "display_name": "智能手机",
+      "hs6_codes": ["851713"],
+      "concrete_terms_cn": ["智能手机", "移动电话机", "手机"],
+      "concrete_terms_en": ["smartphone", "mobile phone", "cellular telephone"],
+      "exclude_terms": ["手机壳", "手机膜", "手机配件", "智能手表"],
+      "default_countries": ["美国", "荷兰", "阿联酋", "日本", "韩国", "德国", "英国", "越南", "印度", "俄罗斯"]
+    },
+    {
+      "key": "lithium_ion_batteries",
+      "display_name": "锂离子电池",
+      "hs6_codes": ["850760"],
+      "concrete_terms_cn": ["锂离子电池", "锂电池"],
+      "concrete_terms_en": ["lithium ion battery", "lithium-ion battery"],
+      "exclude_terms": ["锂原电池", "镍氢电池", "电池回收"],
+      "default_countries": ["美国", "德国", "荷兰", "韩国", "越南", "印度", "日本", "波兰", "匈牙利", "捷克"]
+    },
+    {
+      "key": "electric_vehicles",
+      "display_name": "电动汽车",
+      "hs6_codes": ["870380"],
+      "concrete_terms_cn": ["电动汽车", "纯电动汽车", "新能源车"],
+      "concrete_terms_en": ["electric vehicle", "electric car", "battery electric vehicle", "BEV"],
+      "exclude_terms": ["电动单车", "电动工具", "电动玩具", "混动汽车"],
+      "default_countries": ["比利时", "英国", "西班牙", "德国", "荷兰", "泰国", "菲律宾", "印度", "澳大利亚", "巴西"]
+    },
+    {
+      "key": "solar_cells",
+      "display_name": "太阳能电池",
+      "hs6_codes": ["854143"],
+      "concrete_terms_cn": ["太阳能电池", "光伏电池", "太阳能组件"],
+      "concrete_terms_en": ["solar cell", "photovoltaic cell", "solar module"],
+      "exclude_terms": ["太阳能灯", "太阳能充电器", "太阳能玩具"],
+      "default_countries": ["荷兰", "巴西", "西班牙", "印度", "德国", "比利时", "泰国", "日本", "韩国", "南非"]
+    },
+    {
+      "key": "furniture",
+      "display_name": "家具",
+      "hs6_codes": ["940161", "940360"],
+      "concrete_terms_cn": ["家具", "坐具", "木家具"],
+      "concrete_terms_en": ["furniture", "seat", "wooden furniture"],
+      "exclude_terms": ["家具配件", "家具设计"],
+      "default_countries": ["美国", "德国", "英国", "日本", "澳大利亚", "荷兰", "加拿大", "法国", "韩国", "波兰"]
+    },
+    {
+      "key": "toys",
+      "display_name": "玩具",
+      "hs6_codes": ["950300"],
+      "concrete_terms_cn": ["玩具", "玩偶"],
+      "concrete_terms_en": ["toy", "doll", "plaything"],
+      "exclude_terms": ["玩具设计", "玩具展会"],
+      "default_countries": ["美国", "英国", "日本", "德国", "荷兰", "澳大利亚", "加拿大", "韩国", "法国", "波兰"]
+    },
+    {
+      "key": "air_purifiers",
+      "display_name": "空气净化器",
+      "hs6_codes": ["842139"],
+      "concrete_terms_cn": ["空气净化器", "空气过滤设备"],
+      "concrete_terms_en": ["air purifier", "air cleaner", "air filtration equipment"],
+      "exclude_terms": ["净水器", "新风系统"],
+      "default_countries": ["美国", "日本", "德国", "韩国", "英国", "澳大利亚", "加拿大", "荷兰", "法国", "意大利"]
+    },
+    {
+      "key": "robot_vacuums",
+      "display_name": "扫地机器人",
+      "hs6_codes": ["850980"],
+      "concrete_terms_cn": ["扫地机器人", "清洁机器人", "自动吸尘器"],
+      "concrete_terms_en": ["robot vacuum", "robotic vacuum cleaner", "automatic vacuum cleaner"],
+      "exclude_terms": ["机器人零件", "工业机器人"],
+      "default_countries": ["美国", "德国", "日本", "韩国", "英国", "澳大利亚", "加拿大", "荷兰", "法国", "意大利"]
+    },
+    {
+      "key": "led_lamps",
+      "display_name": "LED灯具",
+      "hs6_codes": ["853952"],
+      "concrete_terms_cn": ["LED灯", "发光二极管灯", "LED灯具"],
+      "concrete_terms_en": ["LED lamp", "light-emitting diode lamp", "LED lighting"],
+      "exclude_terms": ["LED芯片", "LED显示屏", "灯罩"],
+      "default_countries": ["美国", "德国", "荷兰", "英国", "日本", "波兰", "法国", "西班牙", "意大利", "巴西"]
+    }
+  ]
+}
